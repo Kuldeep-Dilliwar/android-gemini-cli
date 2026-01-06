@@ -2,8 +2,8 @@
 ## Here is how to:
 ```
 yes | pkg update && clear && \
-pkg i nodejs && clear && \
-GYP_DEFINES="android_ndk_path=$PREFIX" npm install -g @google/gemini-cli --ignore-scripts && clear && \
+yes | pkg i nodejs && clear && \
+yes | GYP_DEFINES="android_ndk_path=$PREFIX" npm install -g @google/gemini-cli --ignore-scripts && clear && \
 gemini --version && clear && \
 gemini
 ```
